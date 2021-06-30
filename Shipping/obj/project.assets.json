@@ -9284,11 +9284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Shipping\\Shipping.csproj",
+      "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Shipping\\Shipping.csproj",
       "projectName": "Shipping",
-      "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Shipping\\Shipping.csproj",
+      "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Shipping\\Shipping.csproj",
       "packagesPath": "C:\\Users\\Ibraheem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Shipping\\obj\\",
+      "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Shipping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9311,8 +9311,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj": {
-              "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj"
+            "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj": {
+              "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj"
             }
           }
         }

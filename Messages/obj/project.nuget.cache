@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ry0B3KI2nGqf5heOJ7V1xRpcbk45wEIRQypibxz5TYjiNiDKWky8cTonoHAmW+BgRIPCrA5sAs6T70Up7zbJ/g==",
+  "dgSpecHash": "CHvECnSzWYZs4TA7L9lmr23Ssi0DThPzi7zCFv8XFIep5HZLYqs0PAp3epvKe4u3rDwaWdJTt9NOHtlE3D+RuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj",
+  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net\\0.15.67.918\\aggregates.net.0.15.67.918.nupkg.sha512",
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net.nservicebus\\0.15.67.918\\aggregates.net.nservicebus.0.15.67.918.nupkg.sha512",

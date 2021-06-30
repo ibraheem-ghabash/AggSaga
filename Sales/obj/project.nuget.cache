@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kxci94AjFYy2LpGXM6/iJj7KDNeSulD0lfxrThibFs0k3U0SJAY8SiFE38UmYXV4iG24bbl4kidNRKozTvbCCQ==",
+  "dgSpecHash": "BQSTTEaCpOg+RDXQyomfZHdhG5P0MF/77o26f8yE/3aR1dBzGqK1mJ2eq1Tt3H6MYEFHP7bnHH/Q6XsvkLDKqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\Sales.csproj",
+  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\Sales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net\\0.15.67.918\\aggregates.net.0.15.67.918.nupkg.sha512",
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net.eventstore\\0.15.67.918\\aggregates.net.eventstore.0.15.67.918.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hsvz7qoOhomPlDyraDTArTG5WlxjxilhWJRECATqkLZcVcwD/rnAaooGM0IkeoXFBKv5JpgrGwm8lFTkDbgoEA==",
+  "dgSpecHash": "ippHajxuNkOWpaLK2QIZpMts6rYtdB1BY157z2yk+m9+uXbtbnwAW4kAjOCkwL4wKZX/dddFlOgcGmQKNd9QHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Shipping\\Shipping.csproj",
+  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Shipping\\Shipping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net\\0.15.67.918\\aggregates.net.0.15.67.918.nupkg.sha512",
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net.newtonsoftjson\\0.15.67.918\\aggregates.net.newtonsoftjson.0.15.67.918.nupkg.sha512",

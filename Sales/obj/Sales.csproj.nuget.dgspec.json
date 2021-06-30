@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\Sales.csproj": {}
+    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\Sales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj": {
+    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj",
+        "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj",
         "projectName": "Messages",
-        "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj",
+        "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj",
         "packagesPath": "C:\\Users\\Ibraheem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\obj\\",
+        "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\Sales.csproj": {
+    "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\Sales.csproj",
+        "projectUniqueName": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\Sales.csproj",
         "projectName": "Sales",
-        "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\Sales.csproj",
+        "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\Sales.csproj",
         "packagesPath": "C:\\Users\\Ibraheem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Sales\\obj\\",
+        "outputPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Sales\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj": {
-                "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\Messages\\Messages.csproj"
+              "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj": {
+                "projectPath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\Messages\\Messages.csproj"
               }
             }
           }

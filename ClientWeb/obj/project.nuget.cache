@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmgPyIJcWZac/eSR8r5EoqFc1OseCyY2iLCk5Xd3Q1vf04dAnzJ9tszq93LUwnRDrvOihTWyCQk+Udn8ZJWbiQ==",
+  "dgSpecHash": "coh5MjpyLWVwiX+0sCNOiHtJKGnx3IktZu5p4uSxZjY1bX6OAx0fChKOUvJ2VkWpZovLNOx1ltuzI22gTTm4UA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga\\ClientWeb\\ClientWeb.csproj",
+  "projectFilePath": "C:\\Users\\Ibraheem\\source\\repos\\AggSaga\\AggSaga1\\ClientWeb\\ClientWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net\\0.15.67.918\\aggregates.net.0.15.67.918.nupkg.sha512",
     "C:\\Users\\Ibraheem\\.nuget\\packages\\aggregates.net.microsoft\\0.15.67.918\\aggregates.net.microsoft.0.15.67.918.nupkg.sha512",
