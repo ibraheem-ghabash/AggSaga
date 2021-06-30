@@ -1,0 +1,25 @@
+﻿2021-06-30 09:22:31.572 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:22:31.783 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:22:31.903 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:22:32.613 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-30 09:23:53.780 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:23:53.968 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:23:54.050 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:23:54.701 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-30 09:28:11.320 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:28:11.518 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:28:11.612 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:28:12.193 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-30 09:29:15.635 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:29:15.817 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:29:15.892 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:29:16.425 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-30 09:30:42.004 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:30:42.154 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:30:42.211 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:30:42.642 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\ClientWeb\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.

@@ -1,0 +1,189 @@
+﻿2021-06-29 15:44:20.884 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:44:21.178 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:44:21.339 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:44:22.223 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 15:44:23.366 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:44:23.836 INFO  Initiating shutdown.
+2021-06-29 15:45:26.315 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:45:26.634 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:45:26.802 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:45:27.483 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 15:45:28.395 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:45:28.905 INFO  Initiating shutdown.
+2021-06-29 15:46:54.881 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:46:55.165 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:46:55.393 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:46:56.492 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 15:46:57.331 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:51:04.008 WARN  'Sales-Sales_instance MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.009 WARN  'Sales MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.009 WARN  'Sales Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.097 WARN  The circuit breaker for 'Sales MessagePump' is now in the armed state
+2021-06-29 15:51:04.093 WARN  The circuit breaker for 'Sales-Sales_instance MessagePump' is now in the armed state
+2021-06-29 15:51:04.128 INFO  Attempting to reconnect in 10 seconds.
+2021-06-29 15:51:14.022 INFO  The circuit breaker for 'Sales MessagePump' is now disarmed
+2021-06-29 15:51:14.022 INFO  The circuit breaker for 'Sales-Sales_instance MessagePump' is now disarmed
+2021-06-29 15:51:14.180 INFO  Connection to the broker reestablished successfully.
+2021-06-29 15:55:55.954 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:55:56.253 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:55:56.475 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:55:57.105 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 15:55:57.940 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:56:00.669 ERROR Moving message '03dfaae3-7249-4a3c-9dd1-ad5600d52239' to the error queue 'error' because processing failed due to an exception:
+StructureMap.StructureMapConfigurationException: No default Instance is registered and cannot be automatically determined for type 'Aggregates.Contracts.IStoreEvents'
+
+There is no configuration specified for Aggregates.Contracts.IStoreEvents
+
+1.) new StoreEntities(*Default of IMetrics*, *Default of IStoreEvents*, *Default of IStoreSnapshots*, *Default of IOobWriter*, *Default of IEventFactory*, *Default of IVersionRegistrar*, *Default of ITrackChildren*)
+2.) Aggregates.Internal.StoreEntities
+3.) Instance of Aggregates.Contracts.IStoreEntities (Aggregates.Internal.StoreEntities)
+4.) new RepositoryFactory(*Default of IStoreEntities*)
+5.) Aggregates.Internal.RepositoryFactory
+6.) Instance of Aggregates.Contracts.IRepositoryFactory (Aggregates.Internal.RepositoryFactory)
+7.) Container.GetInstance<Aggregates.Contracts.IRepositoryFactory>()
+8.) Lambda: Invoke(value(Aggregates.Internal.Container+<>c__DisplayClass7_0`1[Aggregates.UnitOfWork.IDomain]).factory, value(Aggregates.Internal.Container))
+9.) Instance of Aggregates.UnitOfWork.IDomain
+10.) Container.GetInstance<Aggregates.UnitOfWork.IDomain>()
+
+   at lambda_method(Closure , IBuildSession , IContext )
+   at StructureMap.Building.BuildPlan.Build(IBuildSession session, IContext context)
+   at StructureMap.BuildSession.BuildNewInSession(Type pluginType, Instance instance)
+   at StructureMap.Pipeline.ContainerSpecificObjectCache.buildWithSession(Type pluginType, Instance instance, IBuildSession session)
+   at StructureMap.Pipeline.LifecycleObjectCache.<>c__DisplayClass5_0.<Get>b__0(Int32 _)
+   at StructureMap.Pipeline.LazyLifecycleObjectCacheExtensions.<>c__DisplayClass1_1`2.<GetOrAdd>b__1()
+   at StructureMap.Pipeline.LazyLifecycleObject`1.CreateValue()
+   at StructureMap.Pipeline.LazyLifecycleObject`1.get_Value()
+   at StructureMap.Pipeline.LazyLifecycleObjectCacheExtensions.GetOrAdd[TKey,TValue](ConcurrentDictionary`2 cache, TKey key, Func`2 valueFactory)
+   at StructureMap.Pipeline.LifecycleObjectCache.Get(Type pluginType, Instance instance, IBuildSession session)
+   at StructureMap.BuildSession.ResolveFromLifecycle(Type pluginType, Instance instance)
+   at StructureMap.SessionCache.GetObject(Type pluginType, Instance instance, ILifecycle lifecycle)
+   at StructureMap.SessionCache.GetDefault(Type pluginType, IPipelineGraph pipelineGraph)
+   at StructureMap.BuildSession.GetInstance(Type pluginType)
+   at StructureMap.Container.DoGetInstance(Type pluginType)
+   at StructureMap.Container.GetInstance[T]()
+   at Aggregates.Internal.Container.Resolve[TResolve]() in C:\projects\aggregates-net\src\Aggregates.NET.StructureMap\Internal\Container.cs:line 116
+   at Aggregates.Internal.UnitOfWorkExecutor.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\UnitOfWorkExecutor.cs:line 52
+   at Aggregates.Internal.CommandAcceptor.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\CommandAcceptor.cs:line 41
+   at Aggregates.Internal.ExceptionRejector.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\ExceptionRejector.cs:line 48
+   at Aggregates.Internal.ExceptionRejector.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\ExceptionRejector.cs:line 99
+   at Aggregates.Internal.SagaBehaviour.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\SagaBehaviour.cs:line 31
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at Aggregates.Internal.Dispatcher.SendLocal(IFullMessage message, IDictionary`2 headers) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\Dispatcher.cs:line 117
+Exception details:
+	Message ID: 03dfaae3-7249-4a3c-9dd1-ad5600d52239
+2021-06-29 15:58:38.302 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:58:38.653 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:58:38.864 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:58:40.144 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 15:58:48.831 INFO  Received PlaceOrder, OrderId = 84073ca6-b5eb-4375-8afb-58625de7d60b
+2021-06-29 15:59:11.333 INFO  Received PlaceOrder, OrderId = 8c98cb5c-de41-4538-a31a-dd6d1fab17b9
+2021-06-29 16:06:58.860 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:06:59.168 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:06:59.369 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:07:00.261 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 16:07:01.644 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 16:07:03.788 INFO  Received PlaceOrder, OrderId = 43d92ee9-c6e6-4be6-9055-6c181666c32f
+2021-06-29 16:07:04.588 INFO  Received PlaceOrder, OrderId = 43d92ee9-c6e6-4be6-9055-6c181666c32f
+2021-06-29 16:07:04.764 ERROR Moving message '34f3fefb-449f-4589-9d2c-ad5600d82bf5' to the error queue 'error' because processing failed due to an exception:
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.AggregateException: Could not find constructor
+   at Aggregates.Extensions.ReflectionExtensions.BuildCreateEntityFunc[TEntity]() in C:\projects\aggregates-net\src\Aggregates.NET\Extensions\ReflectionExtensions.cs:line 90
+   at Aggregates.Internal.EntityFactory`2..ctor() in C:\projects\aggregates-net\src\Aggregates.NET\Internal\EntityFactory.cs:line 42
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& hasNoDefaultCtor)
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type)
+   at Aggregates.Internal.EntityFactory.CreateFactory[TEntity]() in C:\projects\aggregates-net\src\Aggregates.NET\Internal\EntityFactory.cs:line 29
+   at Aggregates.Internal.EntityFactory.<>c__2`1.<For>b__2_0(Type t) in C:\projects\aggregates-net\src\Aggregates.NET\Internal\EntityFactory.cs:line 20
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Aggregates.Internal.EntityFactory.For[TEntity]() in C:\projects\aggregates-net\src\Aggregates.NET\Internal\EntityFactory.cs:line 20
+   at Aggregates.Internal.StoreEntities.New[TEntity,TState](String bucket, Id id, IEntity parent) in C:\projects\aggregates-net\src\Aggregates.NET\Internal\StoreEntities.cs:line 51
+   at Aggregates.Internal.Repository`2.NewUntracked(String bucket, Id id, IEntity parent) in C:\projects\aggregates-net\src\Aggregates.NET\Internal\Repository.cs:line 210
+   at Aggregates.Internal.Repository`2.New(String bucket, Id id) in C:\projects\aggregates-net\src\Aggregates.NET\Internal\Repository.cs:line 202
+   at Sales.PlaceOrderHandler.Handle(PlaceOrder message, IMessageHandlerContext context) in C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\PlaceOrderHandler.cs:line 39
+   at Aggregates.Internal.BulkInvokeHandlerTerminator.Terminate(IInvokeHandlerContext context) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\BulkInvokeHandlerTerminator.cs:line 87
+   at NServiceBus.SagaPersistenceBehavior.Invoke(IInvokeHandlerContext context, Func`2 next)
+   at NServiceBus.LoadHandlersConnector.Invoke(IIncomingLogicalMessageContext context, Func`2 stage)
+   at CurrentSessionBehavior.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in /_/src/SqlPersistence/SynchronizedStorage/CurrentSessionBehavior.cs:line 18
+   at NServiceBus.ScheduledTaskHandlingBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at NServiceBus.InvokeSagaNotFoundBehavior.Invoke(IIncomingLogicalMessageContext context, Func`2 next)
+   at Aggregates.Internal.LogContextProviderBehaviour.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\LogContextProviderBehaviour.cs:line 39
+   at Aggregates.Internal.LocalMessageUnpack.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\LocalMessageUnpack.cs:line 109
+   at Aggregates.Internal.UnitOfWorkExecutor.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\UnitOfWorkExecutor.cs:line 90
+   at Aggregates.Internal.UnitOfWorkExecutor.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\UnitOfWorkExecutor.cs:line 129
+   at Aggregates.Internal.CommandAcceptor.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\CommandAcceptor.cs:line 41
+   at Aggregates.Internal.ExceptionRejector.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\ExceptionRejector.cs:line 48
+   at Aggregates.Internal.ExceptionRejector.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\ExceptionRejector.cs:line 99
+   at Aggregates.Internal.SagaBehaviour.Invoke(IIncomingLogicalMessageContext context, Func`1 next) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\SagaBehaviour.cs:line 31
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage)
+   at NServiceBus.InvokeAuditPipelineBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next)
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next)
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext)
+   at Aggregates.Internal.Dispatcher.SendLocal(IFullMessage message, IDictionary`2 headers) in C:\projects\aggregates-net\src\Aggregates.NET.NServiceBus\Internal\Dispatcher.cs:line 117
+Exception details:
+	Message ID: 34f3fefb-449f-4589-9d2c-ad5600d82bf5
+2021-06-29 16:08:31.745 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:08:32.100 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:08:32.288 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:08:32.939 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 16:08:33.922 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 16:08:36.439 INFO  Received PlaceOrder, OrderId = a9ab2b60-69a2-4ad0-8b12-5e80367defc2
+2021-06-29 16:17:48.505 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:17:49.205 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:17:49.711 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:17:51.501 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 16:17:53.719 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 16:17:56.995 INFO  Received PlaceOrder, OrderId = 43f17353-ee5c-4610-9eb7-1cdc7acba93b
+2021-06-29 16:19:11.984 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:19:12.635 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:19:13.004 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:19:14.234 INFO  Directory 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Sales\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas' not found so no saga creation scripts will be executed.
+2021-06-29 16:19:17.932 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 16:19:19.850 INFO  Received PlaceOrder, OrderId = 6efb7894-6aba-45ce-aaba-48cebc1421cf
+2021-06-29 16:19:40.154 INFO  Received PlaceOrder, OrderId = 77801a98-5dc2-45f1-9b68-fb3f8fe34d39

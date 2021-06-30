@@ -1,0 +1,37 @@
+﻿2021-06-30 09:22:28.198 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:22:28.541 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:22:28.739 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:22:30.544 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-30 09:23:53.099 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:23:53.318 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:23:53.466 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:23:54.082 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-30 09:28:09.120 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:28:09.498 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:28:09.664 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:28:10.323 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-30 09:29:14.606 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:29:14.991 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:29:15.152 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:29:15.795 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-30 09:29:17.985 INFO  OrderPlaced message received.
+2021-06-30 09:29:18.021 INFO  OrderBilled message received.
+2021-06-30 09:29:18.630 INFO  OrderPlaced message received.
+2021-06-30 09:29:47.495 INFO  OrderPlaced message received.
+2021-06-30 09:29:47.530 INFO  OrderBilled message received.
+2021-06-30 09:29:51.827 INFO  OrderPlaced message received.
+2021-06-30 09:29:51.855 INFO  OrderBilled message received.
+2021-06-30 09:30:38.115 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-30 09:30:38.476 INFO  Auditing processed messages to 'audit'
+2021-06-30 09:30:38.736 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-30 09:30:39.645 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql

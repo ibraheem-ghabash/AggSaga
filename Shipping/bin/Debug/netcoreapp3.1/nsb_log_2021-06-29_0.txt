@@ -1,0 +1,107 @@
+﻿2021-06-29 15:44:21.172 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:44:21.424 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:44:21.614 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:44:22.565 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 15:44:24.157 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:44:24.557 INFO  Initiating shutdown.
+2021-06-29 15:45:26.173 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:45:26.425 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:45:26.647 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:45:27.392 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 15:45:28.522 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:45:28.995 INFO  Initiating shutdown.
+2021-06-29 15:46:54.842 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:46:55.127 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:46:55.363 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:46:56.356 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 15:46:57.510 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:51:04.008 WARN  'Shipping MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.008 WARN  'Shipping-Shipping_instance MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.035 WARN  The circuit breaker for 'Shipping MessagePump' is now in the armed state
+2021-06-29 15:51:04.064 WARN  The circuit breaker for 'Shipping-Shipping_instance MessagePump' is now in the armed state
+2021-06-29 15:51:04.009 WARN  'Shipping Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text='Unexpected Exception', classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.ReadByteSlow()
+   at System.IO.BufferedStream.ReadByte()
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2021-06-29 15:51:04.143 INFO  Attempting to reconnect in 10 seconds.
+2021-06-29 15:51:13.999 INFO  The circuit breaker for 'Shipping-Shipping_instance MessagePump' is now disarmed
+2021-06-29 15:51:13.998 INFO  The circuit breaker for 'Shipping MessagePump' is now disarmed
+2021-06-29 15:51:14.164 INFO  Connection to the broker reestablished successfully.
+2021-06-29 15:55:55.792 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:55:56.120 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:55:56.329 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:55:56.935 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 15:55:57.923 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Aggregates.Internal.BulkMessage' to help NServiceBus to enforce messaging best practices for you.
+2021-06-29 15:58:38.299 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 15:58:38.642 INFO  Auditing processed messages to 'audit'
+2021-06-29 15:58:38.839 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 15:58:40.160 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 15:58:49.156 INFO  OrderPlaced message received.
+2021-06-29 15:58:49.178 INFO  OrderBilled message received.
+2021-06-29 15:58:49.899 INFO  OrderBilled message received.
+2021-06-29 15:59:11.441 INFO  OrderPlaced message received.
+2021-06-29 15:59:11.492 INFO  OrderBilled message received.
+2021-06-29 16:06:58.435 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:06:58.822 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:06:59.039 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:06:59.987 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 16:08:31.659 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:08:31.990 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:08:32.207 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:08:32.899 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 16:17:48.146 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:17:48.925 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:17:49.403 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:17:51.467 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
+2021-06-29 16:17:57.656 INFO  OrderPlaced message received.
+2021-06-29 16:17:57.692 INFO  OrderBilled message received.
+2021-06-29 16:17:58.382 INFO  OrderPlaced message received.
+2021-06-29 16:19:11.713 INFO  Logging to 'C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\' with level Info
+2021-06-29 16:19:12.401 INFO  Auditing processed messages to 'audit'
+2021-06-29 16:19:12.824 INFO  Selected active license from C:\Users\Ibraheem\AppData\Local\ParticularSoftware\license.xml
+Upgrade Protection Expiration: 2021-10-02
+2021-06-29 16:19:14.087 INFO  Executing saga creation scripts:
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Shipping\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\ShippingPolicy_Create.sql
