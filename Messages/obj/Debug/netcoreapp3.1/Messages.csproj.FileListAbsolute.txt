@@ -7,3 +7,12 @@ C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Messages\obj\Debug\netcoreapp3.1\
 C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Messages\obj\Debug\netcoreapp3.1\Messages.csproj.CoreCompileInputs.cache
 C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Messages\obj\Debug\netcoreapp3.1\Messages.dll
 C:\Users\Ibraheem\source\repos\AggSaga\AggSaga\Messages\obj\Debug\netcoreapp3.1\Messages.pdb
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\bin\Debug\netcoreapp3.1\Messages.deps.json
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\bin\Debug\netcoreapp3.1\Messages.dll
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\bin\Debug\netcoreapp3.1\Messages.pdb
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.csproj.AssemblyReference.cache
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.AssemblyInfoInputs.cache
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.AssemblyInfo.cs
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.csproj.CoreCompileInputs.cache
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.dll
+C:\Users\Ibraheem\source\repos\AggSaga\AggSaga1\Messages\obj\Debug\netcoreapp3.1\Messages.pdb

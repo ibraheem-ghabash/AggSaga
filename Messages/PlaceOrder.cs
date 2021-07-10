@@ -9,4 +9,6 @@ namespace Messages
     {
         public string OrderId { get; set; }
     }
+
+    public class StrtOrderSaga : PlaceOrder { }
 }

@@ -12,7 +12,9 @@ namespace Sales
     using System;
 
     public class PlaceOrderHandler :
-        IHandleCommands<PlaceOrder>
+        IHandleCommands<PlaceOrder>,
+        IHandleCommands<StrtOrderSaga>,
+        IHandleCommands<ShipOrder>
     {
         static ILog log = LogManager.GetLogger<PlaceOrderHandler>();
         static Random random = new Random();
@@ -36,13 +38,28 @@ namespace Sales
             // {
             //     OrderId = message.OrderId
             // };
-            var order = await context.For<OrderModel>()
-                .New(message.OrderId)
-                .ConfigureAwait(false);
+            StrtOrderSaga sagaCmd = message as StrtOrderSaga;
+            var saga = context.Saga(message.OrderId, "Sales")
+                .Command(sagaCmd)
+                .Command(new ShipOrder{OrderId = message.OrderId });
+            await saga.Start().ConfigureAwait(false);
+            //var order = await context.For<OrderModel>()
+            //    .New(message.OrderId)
+            //    .ConfigureAwait(false);
             
-            order.Create(message.OrderId);
+            //order.Create(message.OrderId);
 
             // await context.Publish(orderPlaced);
+        }
+
+        public async Task Handle(StrtOrderSaga message, IMessageHandlerContext context)
+        {
+            log.Info($"started saga, OrderId = {message.OrderId}");
+        }
+
+        public async Task Handle(ShipOrder message, IMessageHandlerContext context)
+        {
+            log.Info($"Ship order-saga completed, OrderId = {message.OrderId}");
         }
     }
 
